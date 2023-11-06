@@ -1,0 +1,17 @@
+.navigation {
+  display: flex;
+  justify-content: center;
+}
+.navigation__wrapper {
+  display: flex;
+  gap: 20px;
+}
+.navigation__wrapper a {
+  padding: 5px 10px;
+  background-color: #d0dff0;
+  border-radius: 10px;
+  transition: background-color 0.3s ease 0s;
+}
+.navigation__wrapper a:hover {
+  background-color: rgba(208, 223, 240, 0.8);
+}
